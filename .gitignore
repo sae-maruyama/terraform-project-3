@@ -1,0 +1,10 @@
+cat > .gitignore << 'EOF'
+# Terraform
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+.terraform/
+terraform.tfplan
+
+# OS
+Thumbs.db
