@@ -25,8 +25,7 @@ terraform-infrastructure/
 ## バックエンド設定
 
 - **S3バケット**: `handson-remote-backend-250818`
-- **ステートファイル**: 環境ごとに分離
-- **ロック機能**: Terraform 1.10.0のuse_lockfile機能を使用
+- **tf.stateファイル**: 環境ごとに分離
 
 ## 注意事項
 - `terraform.tfvars`ファイルは機密情報を含む可能性があるため、`.gitignore`で除外
