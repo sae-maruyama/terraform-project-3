@@ -1,5 +1,5 @@
 ## プロジェクト構成
-
+Terraformの学習のために作成
 ```
 terraform-infrastructure/
 ├── environments/
